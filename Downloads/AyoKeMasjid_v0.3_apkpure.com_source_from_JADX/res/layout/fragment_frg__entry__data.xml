@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0dp">
+        <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txtNamaMasjid2" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="45dp" />
+        <WebView android:id="@id/webview" android:layout_width="-1" android:layout_height="-1" android:layout_marginBottom="0dp" android:src="@drawable/kemasjid" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:weightSum="4.0" android:layout_alignParentTop="true">
+        <Button android:id="@id/ebtnInfoMasjid" android:layout_width="-1" android:layout_height="-2" android:text="Info " android:layout_weight="1.0" />
+        <Button android:id="@id/ebtnKegiatan" android:layout_width="-1" android:layout_height="-2" android:text="Kegiatan " android:layout_weight="1.0" />
+        <Button android:id="@id/ebtnPhoto" android:layout_width="-1" android:layout_height="-2" android:text="Gambar " android:layout_weight="1.0" />
+        <Button android:id="@id/ebtnBackMap" android:layout_width="-1" android:layout_height="-2" android:text="Kembali" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

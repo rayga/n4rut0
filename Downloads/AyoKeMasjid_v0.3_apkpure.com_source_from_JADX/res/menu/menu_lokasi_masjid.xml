@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@drawable/ic_action_book" app:id="@id/action_book" app:title="Book" app:showAsAction="2" />
+    <item app:icon="@drawable/ic_cari_masjid" app:id="@id/action_cari_masjid" app:title="New Act" app:showAsAction="2" />
+    <item app:icon="@drawable/ic_action_marka" app:id="@id/action_marka" app:title="New Act" app:showAsAction="2" />
+</menu>

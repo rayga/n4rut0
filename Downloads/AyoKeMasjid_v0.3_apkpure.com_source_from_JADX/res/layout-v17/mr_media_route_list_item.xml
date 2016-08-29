@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="10" android:layout_width="-1" android:layout_height="?unknown_attr_ref: 101004d"
+    <LinearLayout android:gravity="800013" android:orientation="1" android:duplicateParentState="true" android:layout_width="0dp" android:layout_height="-1" android:layout_weight="1.0" android:paddingStart="?unknown_attr_ref: 10103bd" android:paddingEnd="?unknown_attr_ref: 10103be">
+        <TextView android:textAppearance="?unknown_attr_ref: 1010041" android:ellipsize="4" android:id="0x1020014" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+        <TextView android:textAppearance="?unknown_attr_ref: 1010042" android:ellipsize="4" android:id="0x1020015" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

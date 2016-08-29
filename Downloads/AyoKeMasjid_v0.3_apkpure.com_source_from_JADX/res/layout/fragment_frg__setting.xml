@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:scrollbarStyle="0" android:id="@id/scrollView" android:scrollbars="200" android:layout_width="-1" android:layout_height="-1" android:overScrollMode="0">
+    <LinearLayout android:orientation="1" android:id="@id/linearLayoutContent" android:paddingTop="@dimen/margin_padding_toolbar_status_bar_8andtoolbarand25" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1"
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <TextView android:textAppearance="@style/TextAppearance_AppCompat_Headline" android:textColor="?unknown_attr_ref: 1010036" android:gravity="11" android:layout_gravity="11" android:layout_width="-2" android:layout_height="@dimen/item_height_single_line_48_56" android:text="Pilih Tema Tampilan" />
+            <Button android:textColor="@color/md_red_500" android:layout_gravity="11" android:id="@id/buttonRedLight" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="-2" android:layout_height="@dimen/item_height_single_line_48_56" android:layout_marginTop="@dimen/margin_padding_16_24" android:text="Red Light" style="?unknown_attr_ref: 101032b" />
+            <Button android:textColor="@color/md_indigo_500" android:layout_gravity="11" android:id="@id/buttonBlueLight" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="-2" android:layout_height="@dimen/item_height_single_line_48_56" android:layout_marginTop="@dimen/margin_padding_16_24" android:text="Blue Light" style="?unknown_attr_ref: 101032b" />
+            <Button android:textColor="@color/md_red_500" android:layout_gravity="11" android:id="@id/buttonRedDark" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="-2" android:layout_height="@dimen/item_height_single_line_48_56" android:layout_marginTop="@dimen/margin_padding_16_24" android:text="Red Dark" style="?unknown_attr_ref: 101032b" />
+            <Button android:textColor="@color/md_indigo_500" android:layout_gravity="11" android:id="@id/buttonBlueDark" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="-2" android:layout_height="@dimen/item_height_single_line_48_56" android:layout_marginTop="@dimen/margin_padding_16_24" android:text="Blue Dark" style="?unknown_attr_ref: 101032b" />
+        </LinearLayout>
+        <Space android:layout_width="-1" android:layout_height="@dimen/navigation_bar_and_padding_64" />
+    </LinearLayout>
+</ScrollView>

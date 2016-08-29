@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="0" android:id="@id/linearLayoutItem" android:clickable="true" android:layout_width="-1" android:layout_height="@dimen/margin_padding_48"
+    <LinearLayout android:orientation="0" android:background="?attr/selectableItemBackground" android:clickable="true" android:layout_width="-1" android:layout_height="@dimen/margin_padding_48">
+        <ImageView android:layout_gravity="10" android:id="@id/imageViewDrawerItemIcon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="@dimen/margin_padding_16_24" android:layout_marginRight="@dimen/margin_padding_16" android:src="@drawable/ic_action_account_circle" android:tint="?unknown_attr_ref: 1010038" />
+        <TextView android:textAppearance="@style/Base_TextAppearance_AppCompat_Body2" android:textColor="?unknown_attr_ref: 1010036" android:layout_gravity="10" android:id="@id/textViewDrawerItemTitle" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/margin_padding_16_24" android:layout_marginRight="@dimen/margin_padding_16" android:text="Your drawer content" />
+    </LinearLayout>
+</LinearLayout>

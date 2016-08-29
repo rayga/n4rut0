@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@drawable/ic_compass_refresh" app:id="@id/action_compass_refresh" app:title="New Act" app:showAsAction="2" />
+    <item app:icon="@drawable/ic_compass_muazzin" app:id="@id/action_compass_muazzin" app:title="Open Act" app:showAsAction="2" />
+</menu>

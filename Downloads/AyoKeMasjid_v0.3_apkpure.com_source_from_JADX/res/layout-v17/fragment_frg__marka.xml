@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0dp">
+        <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txtNamaMasjid" android:layout_width="-1" android:layout_height="40dp" android:layout_marginTop="45dp" android:textAlignment="4" />
+        <WebView android:id="@id/webview" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" android:src="@drawable/kemasjid" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_alignParentTop="true">
+        <Button android:id="@id/btnInfoMasjid" android:layout_width="0dp" android:layout_height="-2" android:text="Info " android:layout_weight="1.0" />
+        <Button android:id="@id/btnUploadPhoto" android:layout_width="0dp" android:layout_height="-2" android:text="UPLOAD PHOTO " android:layout_weight="2.0" />
+        <Button android:id="@id/btnEntry" android:layout_width="0dp" android:layout_height="-2" android:text="Entry" android:layout_weight="1.0" />
+    </LinearLayout>
+</FrameLayout>

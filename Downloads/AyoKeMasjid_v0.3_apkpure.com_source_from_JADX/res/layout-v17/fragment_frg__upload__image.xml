@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="1" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txtNamaMasjid3" android:layout_width="-1" android:layout_height="25dp" android:layout_marginTop="0dp" android:textAlignment="4" />
+    <Button android:id="@id/buttonChoose" android:layout_width="-1" android:layout_height="-2" android:text="Pilih Gambar" />
+    <ImageView android:id="@id/imageView" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.0" />
+    <EditText android:id="@id/editText" android:layout_width="-1" android:layout_height="-2" android:hint="Entry Nama Gambar" />
+    <Button android:id="@id/buttonUpload" android:layout_width="-1" android:layout_height="-2" android:text="Upload Gambar" />
+</LinearLayout>

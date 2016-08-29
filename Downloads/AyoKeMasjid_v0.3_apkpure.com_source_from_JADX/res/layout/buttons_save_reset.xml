@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <Button android:id="@id/reset_settings" android:layout_width="0dp" android:layout_height="-1" android:text="@string/reset" android:layout_weight="1.0" />
+        <Button android:id="@id/save_settings" android:layout_width="0dp" android:layout_height="-1" android:text="@string/save" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/photo" android:paddingTop="10dp" android:paddingRight="15dp" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" />
+    <TextView android:textStyle="1" android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_nama_masjid" android:paddingTop="20dp" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/photo" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_alamat_masjid" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_nama_masjid" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_nama_kota" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_alamat_masjid" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_latitude" android:visibility="1" android:layout_width="-2" android:layout_height="0dp" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_nama_kota" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_longitude" android:visibility="1" android:layout_width="-2" android:layout_height="0dp" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_latitude" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_status" android:visibility="1" android:layout_width="-2" android:layout_height="0dp" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_longitude" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_jenis_masjid" android:visibility="1" android:layout_width="-2" android:layout_height="0dp" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_status" />
+    <TextView android:textColor="?unknown_attr_ref: 1010036" android:id="@id/txt_id_rec" android:visibility="1" android:layout_width="-2" android:layout_height="0dp" android:layout_toRightOf="@id/photo" android:layout_below="@id/txt_jenis_masjid" />
+</RelativeLayout>

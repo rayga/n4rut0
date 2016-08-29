@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:id="@id/tvHeading" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="20dp" android:layout_marginBottom="40dp" android:text="Heading: 0.0" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/imageViewCompass" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/compass" android:layout_below="@id/tvHeading" android:layout_centerHorizontal="true" />
+</RelativeLayout>

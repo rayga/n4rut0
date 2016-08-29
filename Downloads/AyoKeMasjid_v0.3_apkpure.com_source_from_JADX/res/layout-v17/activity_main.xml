@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout app:orientation="1" app:id="@id/drawerLayout" app:background="?unknown_attr_ref: 1010031" app:fitsSystemWindows="@bool/fitsSystemWindows" app:layout_width="-1" app:layout_height="-1">
+    <RelativeLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+        <FrameLayout app:id="@id/main_activity_content_frame" app:layout_width="-1" app:layout_height="-1" app:layout_marginTop="80dp" app:layout_marginBottom="50dp" />
+        <ImageView app:id="@id/view_iklan" app:clickable="true" app:layout_width="-1" app:layout_height="50dp" app:layout_alignParentLeft="true" app:layout_alignParentBottom="true" app:layout_alignParentStart="true" />
+        <FrameLayout app:id="@id/statusBar4000" app:background="@color/status_bar_inset" app:layout_width="-1" app:layout_height="@dimen/status_bar_height" />
+        <android.support.v7.widget.Toolbar android:theme="@style/ThemeOverlay_AppCompat_Dark_ActionBar" android:id="@id/toolbar" android:background="?attr/colorPrimary" android:layout_width="-1" android:layout_height="?attr/actionBarSize" android:layout_below="@id/statusBar" android:popupTheme="@style/ThemeOverlay_AppCompat_Light" />
+        <FrameLayout android:id="@id/statusBar" android:background="?attr/colorPrimaryDark" android:layout_width="-1" android:layout_height="@dimen/status_bar_height" />
+    </RelativeLayout>
+    <org.bpmikc.akm.Utils.ScrimInsetsFrameLayout app:layout_gravity="800003" app:id="@id/scrimInsetsFrameLayout" app:fitsSystemWindows="true" app:clickable="true" app:layout_height="-1" app:layout_marginLeft="-64dp" app:layout_marginRight="@dimen/drawer_margin" app:layout_marginStart="-64dp" app:layout_marginEnd="@dimen/drawer_margin" app:insetForeground="@color/status_bar_inset" style="@style/drawer_width">
+        <LinearLayout app:orientation="1" app:layout_width="-1" app:layout_height="-1">
+            <include layout="@layout/drawer" />
+        </LinearLayout>
+    </org.bpmikc.akm.Utils.ScrimInsetsFrameLayout>
+</android.support.v4.widget.DrawerLayout>

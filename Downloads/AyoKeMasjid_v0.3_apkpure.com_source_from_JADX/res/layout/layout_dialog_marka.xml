@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxAtm" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="ATM" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxBandara" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Bandara" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxBengkel" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Bengkel" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxPasar" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Pasar" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxPelabuhan" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Pelabuhan" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxPenginapan" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Penginapan" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxPolisi" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Polisi" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxPomBensin" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Pom Bensin" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxPengobatan" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Pengobatan" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxRestoran" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Rumah Makan" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxStasiun" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Stasiun" />
+                <CheckBox android:layout_gravity="3" android:id="@id/cbxTerminal" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="Terminal" />
+                <android.support.v4.widget.Space android:layout_width="30dp" android:layout_height="20dp" />
+                <Button android:id="@id/btnTampil" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="50dp" android:text="SIMPAN" />
+                <android.support.v4.widget.Space android:layout_width="30dp" android:layout_height="20dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

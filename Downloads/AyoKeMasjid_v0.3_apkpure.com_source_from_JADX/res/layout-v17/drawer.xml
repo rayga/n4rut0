@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="1" android:background="?unknown_attr_ref: 1010031" android:layout_width="-1" android:layout_height="-1" android:animateLayoutChanges="true">
+    <ScrollView android:id="@id/scrollViewNavigationDrawerContent" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:orientation="1" android:id="@id/relativeLayoutScrollViewChild" android:layout_width="-1" android:layout_height="-2">
+            <FrameLayout android:id="@id/framelayoutDrawerHeader" android:layout_width="-1" android:layout_height="-2">
+                <ImageView android:id="@id/imageViewCover" android:layout_width="-1" android:layout_height="@dimen/drawer_header_height" android:src="@color/md_indigo_500" android:scaleType="6" android:contentDescription="@string/drawer_header_image" />
+                <FrameLayout android:background="@color/md_black_1000_20" android:layout_width="-1" android:layout_height="@dimen/drawer_header_height" />
+                <RelativeLayout android:layout_width="-1" android:layout_height="@dimen/drawer_header_height">
+                    <ImageView android:id="@id/imageViewDrawerArrowUpDown" android:background="@drawable/ic_navigation_arrow_drop_down" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:layout_marginRight="@dimen/margin_padding_16" android:layout_marginBottom="@dimen/margin_padding_16" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/margin_padding_16" android:layout_alignParentEnd="true" />
+                    <LinearLayout android:gravity="10" android:orientation="1" android:id="@id/linearLayoutHeaderTexts" android:layout_width="-1" android:layout_height="@dimen/item_height_avatar_single_line_56_64" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginRight="@dimen/margin_padding_40" android:layout_marginBottom="@dimen/margin_padding_8" android:layout_alignParentBottom="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_40">
+                        <TextView android:textAppearance="@style/TextAppearance_AppCompat_Body2" android:textColor="@color/md_text_white" android:id="@id/textViewName" android:layout_width="-2" android:layout_height="-2" android:text="@string/name" android:singleLine="true" />
+                        <TextView android:textAppearance="@style/TextAppearance_AppCompat_Body1" android:textColor="@color/md_secondary_text_icons_white" android:id="@id/textViewUsername" android:layout_width="-2" android:layout_height="-2" android:text="@string/email" android:singleLine="true" />
+                    </LinearLayout>
+                    <ToggleButton android:id="@id/toggleButtonDrawer" android:background="?attr/selectableItemBackground" android:layout_width="-1" android:layout_height="@dimen/drawer_header_height" android:checked="false" android:textOn="" android:textOff="" style="?unknown_attr_ref: 101032b" />
+                    <ImageView android:id="@id/imageViewPictureSecond" android:clickable="true" android:layout_width="@dimen/profile_picture_small_40" android:layout_height="@dimen/profile_picture_small_40" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginRight="@dimen/margin_padding_16" android:src="@color/md_red_500" android:scaleType="6" android:layout_alignTop="@id/imageViewPictureMain" android:layout_alignParentRight="true" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_16" />
+                    <ImageView android:id="@id/imageViewPictureMain" android:clickable="true" android:layout_width="@dimen/profile_picture_64" android:layout_height="@dimen/profile_picture_64" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginBottom="@dimen/margin_padding_4" android:src="@color/md_red_500" android:scaleType="6" android:layout_above="@id/linearLayoutHeaderTexts" android:layout_marginStart="@dimen/margin_padding_16" />
+                </RelativeLayout>
+            </FrameLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2" android:layout_below="@id/framelayoutDrawerHeader" android:animateLayoutChanges="true"
+                <LinearLayout android:orientation="1" android:id="@id/linearLayoutDrawerAccounts" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/margin_padding_8"
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+                        <LinearLayout android:orientation="0" android:background="?attr/selectableItemBackground" android:clickable="true" android:layout_width="-1" android:layout_height="@dimen/margin_padding_48">
+                            <ImageView android:layout_gravity="10" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginRight="@dimen/margin_padding_16" android:src="@drawable/ic_content_add" android:tint="?unknown_attr_ref: 1010038" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_16" />
+                            <TextView android:textAppearance="@style/Base_TextAppearance_AppCompat_Body2" android:textColor="?unknown_attr_ref: 1010036" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginRight="@dimen/margin_padding_16" android:text="@string/add_account" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_16" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+                        <LinearLayout android:orientation="0" android:background="?attr/selectableItemBackground" android:clickable="true" android:layout_width="-1" android:layout_height="@dimen/margin_padding_48">
+                            <ImageView android:layout_gravity="10" android:layout_width="@dimen/icon_size_24" android:layout_height="@dimen/icon_size_24" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginRight="@dimen/margin_padding_16" android:src="@drawable/ic_action_settings" android:tint="?unknown_attr_ref: 1010038" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_16" />
+                            <TextView android:textAppearance="@style/Base_TextAppearance_AppCompat_Body2" android:textColor="?unknown_attr_ref: 1010036" android:layout_gravity="10" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/margin_padding_16" android:layout_marginRight="@dimen/margin_padding_16" android:text="@string/manage_account" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_16" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:id="@id/linearLayoutDrawerMain" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_below="@id/framelayoutDrawerHeader">
+                <android.support.v7.widget.RecyclerView android:id="@id/recyclerViewDrawer1" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="8dp" android:overScrollMode="2" />
+                <FrameLayout android:id="@id/frameLayoutDrawerItemDivider" android:background="?unknown_attr_ref: 1010101" android:visibility="0" android:clickable="false" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="7dp" android:layout_marginBottom="@dimen/margin_padding_8" />
+                <android.support.v7.widget.RecyclerView android:id="@id/recyclerViewDrawer2" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="2" />
+                <FrameLayout android:id="@id/frameLayoutDrawerItemSubheaderDivider" android:background="?unknown_attr_ref: 1010101" android:clickable="false" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="7dp" />
+                <LinearLayout android:orientation="0" android:id="@id/linearLayoutDrawerItemSubheader" android:clickable="false" android:layout_width="-1" android:layout_height="@dimen/margin_padding_48">
+                    <TextView android:textAppearance="@style/Base_TextAppearance_AppCompat_Body2" android:textColor="?unknown_attr_ref: 1010038" android:layout_gravity="10" android:id="@id/textViewDrawerItemSubheaderTitle" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@dimen/margin_padding_16_24" android:layout_marginRight="@dimen/margin_padding_16" android:text="More" android:layout_marginStart="@dimen/margin_padding_16" android:layout_marginEnd="@dimen/margin_padding_16" />
+                </LinearLayout>
+                <android.support.v7.widget.RecyclerView android:id="@id/recyclerViewDrawer3" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="2" />
+                <FrameLayout android:id="@id/frameLayoutDrawerItemDivider2" android:background="?unknown_attr_ref: 1010101" android:visibility="0" android:clickable="false" android:layout_width="-1" android:layout_height="1dp" android:layout_marginTop="7dp" android:layout_marginBottom="@dimen/margin_padding_8" />
+                <android.support.v7.widget.RecyclerView android:id="@id/recyclerViewDrawerSettings" android:scrollbars="200" android:layout_width="-1" android:layout_height="-2" android:overScrollMode="2" />
+                <Space android:layout_width="-1" android:layout_height="@dimen/navigation_bar_and_padding_64" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/frameLayoutSettings1" android:background="?unknown_attr_ref: 1010031" android:visibility="0" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+            <include android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="@dimen/navigation_bar_height" layout="@layout/drawer_settings_help" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

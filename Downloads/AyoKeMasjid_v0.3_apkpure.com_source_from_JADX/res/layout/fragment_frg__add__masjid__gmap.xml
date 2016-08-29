@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="45dp">
+        <com.google.android.gms.maps.MapView android:id="@id/mapView" android:layout_width="-1" android:layout_height="-1" class="com.google.android.gms.maps.SupportMapFragment" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/btnuser" android:layout_width="-1" android:layout_height="-2" android:weightSum="4.0" android:layout_alignParentBottom="true">
+        <Button android:textSize="10dp" android:id="@id/btnNormal" android:layout_width="0dp" android:layout_height="-2" android:text="Normal" android:layout_weight="1.0" style="?unknown_attr_ref: 1010049" />
+        <Button android:textSize="10dp" android:id="@id/btnTerrain" android:layout_width="0dp" android:layout_height="-2" android:text="Terrain" android:layout_weight="1.0" style="?unknown_attr_ref: 1010049" />
+        <Button android:textSize="10dp" android:id="@id/btnSatellite" android:layout_width="0dp" android:layout_height="-2" android:text="Satellite" android:layout_weight="1.0" style="?unknown_attr_ref: 1010049" />
+        <Button android:textSize="10dp" android:id="@id/btnHybrid" android:layout_width="0dp" android:layout_height="-2" android:text="Hybrid" android:layout_weight="1.0" style="?unknown_attr_ref: 1010049" />
+    </LinearLayout>
+</FrameLayout>

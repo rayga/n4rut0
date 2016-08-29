@@ -1,0 +1,35 @@
+b *0x080492a4
+commands 1
+    set $last_data = $eax
+    call memcpy($tmp, $last_data, 0x14)
+    continue
+end
+
+b *0x080492ad
+commands 2
+    call memcpy($last_data, $tmp, 0x14)
+    set $argv = *(char***)($ebp+0xc)
+    set $flag = $argv[1]
+    set $i = *(int*)($esp+0x18)
+    set $flag[$i] += 1
+    x/s $flag
+    set $eip = 0x0804927e
+    continue
+end
+
+b *0x080492B5
+commands 3
+    x/s $flag
+    continue
+end
+
+b *0x08049242
+commands 4
+    call malloc(0x14)
+    set $tmp = $eax
+    continue
+end
+
+run "                                         "
+
+# vim: ft=gdb

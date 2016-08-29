@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:icon="@drawable/ic_action_back" app:id="@id/action_back" app:title="New Act" app:showAsAction="2" />
+</menu>

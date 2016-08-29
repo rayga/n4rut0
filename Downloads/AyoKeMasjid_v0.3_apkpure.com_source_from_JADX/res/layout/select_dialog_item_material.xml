@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?attr/textAppearanceListItemSmall" android:textColor="?attr/textColorAlertDialogListItem" android:ellipsize="4" android:gravity="10" android:id="0x1020014" android:paddingLeft="?attr/listPreferredItemPaddingLeft" android:paddingRight="?attr/listPreferredItemPaddingRight" android:layout_width="-1" android:layout_height="-2" android:minHeight="?attr/listPreferredItemHeightSmall" />

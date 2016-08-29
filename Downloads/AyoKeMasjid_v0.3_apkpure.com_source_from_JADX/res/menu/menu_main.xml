@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item app:id="@id/action_settings" app:orderInCategory="100" app:title="@string/action_settings" app:showAsAction="0" />
+    <item app:id="@id/action_help" app:orderInCategory="100" app:title="@string/action_help" app:showAsAction="0" />
+    <item app:id="@id/action_about" app:orderInCategory="100" app:title="@string/action_about" app:showAsAction="0" />
+    <item app:id="@id/action_exit" app:orderInCategory="100" app:title="@string/action_exit" app:showAsAction="0" />
+</menu>

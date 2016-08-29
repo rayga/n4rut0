@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+            <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-1" style="@style/labelColumn">
+                <TextView android:gravity="70" android:layout_width="-2" android:layout_height="-2" android:text="@string/latitude" android:layout_weight="1.0" />
+                <TextView android:gravity="70" android:layout_width="-2" android:layout_height="-2" android:text="@string/longitude" android:layout_weight="1.0" />
+                <TextView android:gravity="70" android:layout_width="-2" android:layout_height="-2" android:text="@string/calculation" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2"
+                <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2"
+                    <LinearLayout android:orientation="1" android:layout_width="0dp" android:layout_height="-2" android:layout_weight="1.0"
+                        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                            <EditText android:id="@id/latitude" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:inputType="3002" />
+                        </LinearLayout>
+                        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+                            <EditText android:id="@id/longitude" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:inputType="3002" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageButton android:layout_gravity="11" android:id="@id/lookup_gps" android:background="@drawable/ic_lookup_gps" android:layout_width="-2" android:layout_height="-2" android:layout_margin="2dp" android:contentDescription="@string/lookup_gps" />
+                </LinearLayout>
+                <Spinner android:id="@id/calculation_methods" android:layout_width="-1" android:layout_height="-2" android:drawSelectorOnTop="true" />
+            </LinearLayout>
+        </LinearLayout>
+        <include layout="@layout/buttons_save_reset" />
+    </LinearLayout>
+</ScrollView>
