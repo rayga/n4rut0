@@ -1,0 +1,14 @@
+To attack with this method, we can inject a html code, javascript or another client script to victim's site. One of much victims of XSS attack is Shopify. And the hacker that find this vulnerability in Shopify is Hussein. 
+Hussein inject javascript code to one of Shopify Subdomain. And the impact of this flaw is the code can saved in the chart directory of Shopify.
+and when we click that code, will appear window alert.
+
+Writeups :
+1. Visit site that we will attack with XSS. And on this case, website that we try to attack is Shopify subdomain.
+2. After we visit the website, will appear field to upload. On that field, we will inject javascript code to do XSS attack. To inject the code, Inspect Element of Upload field.
+3. Then, we will find "type=file" code. This code will explain that data type we can upload is a "file". Cause we will inject a code, so we have to change the type become "type=url".
+4. You have changed the type ? Now, we can inject the javascript code into the system. With injection code :
+javascript:alert("XSS Attacked by Attacker")//http://google.com/uploads/pwned.jpg
+
+5. After you type the script, then click upload. If you have uploaded file successfully, then the code will store in the Chart directory of Shopify.
+6. To test its XSS attack, you can click file name that match with file name you injected previously. On this case, the file name that we've injected is pwned.jpg.
+So the result will appear like this :

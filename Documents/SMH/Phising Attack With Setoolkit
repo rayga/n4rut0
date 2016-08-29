@@ -1,0 +1,13 @@
+This method used user as a vulnerability, and this method is Social Engineering. To do social engineering, you can do this with various ways. You can send trojan, meet with the user directly, or you can make fake login.
+You can do this method easily with Social Engineering Toolkit (Setoolkit) with Phising Attack. And for this case, our target is www.instagram.com
+
+Writeups : 
+1. Open terminal and type "setoolkit"
+2. And then choose 1) Social-Engineering Attacks
+3. Because we want to make site cloing from instagram, then we choose 2). Website Attack Vectors
+4. Choose 3). Credential Harvester Attack Method
+5. Next, choose 2). Site Cloner
+6. When we choose Site Cloner, setoolkit will ask our ip addres and site that we want to clone. Type our ip address and then type our target : http://www.instagram.com. 
+Waiting for a while untill the process completed. If the process has completed, a message will appear {Press returne to continue}
+7. To test our website has been run or not, open your browser and type your ip address.
+8. And finally, you can share your ip address to your computer friend in the same LAN.

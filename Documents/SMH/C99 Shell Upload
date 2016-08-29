@@ -1,0 +1,13 @@
+This method is one of the many methods that Top Indonesian's Defacer used, Hmei7. More than 154.000 websites has been defaced by Hmei7 used Upload Webshell method.
+So how we can do like that ? To do that, first we must looking for  file location upload in a website.
+
+If we have get file upload location, then upload shell to the website. Where we can get the shell ? visit https://r57.gen.tr/ and you will get the shell.
+But, there are some websites that filtering type of file. For example, the file type of our shell is .php, but victim's website restricted that file type to upload,so we can't upload our shell.
+To manipulate this rule, we can bypassing that rule with Tamper data or Burp suite. But before we go, we must edited file type of our shell become .jpeg | .png |.doc or anything else that allowed.
+We can edited the shell using sublime, notepad ++ and other text editor.
+
+So, when you have browse the file and select the shell, before you click upload button, you must activated your tamper data or burp suite.
+For this case we use Burp Suite, and you should ensure that Intercept is ON. When you click upload, Burp will intercept our request and display data that we will send to server.
+If you find our shell in data request, you should edited file type shell becaome .php again. Because our shell only run in .php.
+
+When you've successed upload your shell, you find the location of your shell in website, open the location and you will get his dashboard.

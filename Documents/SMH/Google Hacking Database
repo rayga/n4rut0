@@ -1,0 +1,18 @@
+Hacking to the system is not limited by one method. An attacker should be creative to create kind of attack.
+SO, need information gathering to determine what kind of attack will launch to hack the system. Including one, google hacking based on wordpress site.
+
+This kind of attack used Google Dork to find flaws on wordpress site. You can find many dorks on Google Hacking Database. For example,
+with google hacking we can find password from site's database
+
+Google Dork : inurl:wp-config -intext:wp-config '"DB_PASSWORD"' v
+
+and the result :
+
+And then we choose one of the website that appear on google's page. For example, we choose http://charlesdoherty.co.uk/wp-config%20fix.txt,
+and we will get display of credential data from the database.
+
+Short explaination about dork that we use :
+
+-inurl:wp-config : this dork is used to find word "wp-config" on url. 
+
+-intext:wp-config '"DB_PASSWORD"': this dork is to find keyword DB_PASSWORD that include on wp-config,and ignore another keyword.

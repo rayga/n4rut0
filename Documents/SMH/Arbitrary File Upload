@@ -1,0 +1,10 @@
+Still on file upload flaw, but this time we exploit the vulnerabilit on plugin "Ultimate-product-catalog". Cause the plugin didn't has file filterisation.
+So attacker can upload shell, and attacker can get root access.
+
+And now this step to upload shell :
+1. Log in to wordpress site with username and password that you have
+2. After that, choose "Custom Fields" and add custom field with file type "file".
+3.If you've added the field, then choose "Product" menu and on that manu will display field "file" to upload our shell
+4. Upload shell and click Save
+5. If you have uploaded succesfully, you can access that shell through this page :
+http://host/wp-content/uploads/upcp-product-file-uploads/<our-shell-name

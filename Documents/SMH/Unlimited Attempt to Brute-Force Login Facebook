@@ -1,0 +1,16 @@
+This method still effective but not efficient. Why not efficient, cause we try much string/word as a password. Hence need more time, depend on how much we have the data.
+
+If yout attempt to brute-force facebook directly, your access will limited by facebook. But, you can do that with another way and you will get unlimited access.
+Using Burp, we will manipulate the limited access.
+
+Writeups :
+1. Open Burp and ensure "Intercept" become "Intercept On". You can check this on Proxy sub-menu
+2. After that, login to facebook, dan fill victim's username and randomly password. If you have done, click Login and go to Burp.
+3. In Burp, you will find if Burp Intercept the request and get raw data. Right Click on raw data and choose "Semd to Intruder".
+4. Move to Intruder menu, click "Clear $" to erase highlight on string. And then click "Add $" on string "pass" that found on raw data.
+Why only string "pass" that we highlight ? cause we will only brute-force for password.
+5. Choose Payloads sub-menu :
+On Payload Options [Simple List], if you want to use password list that exist, you can choose "Load". But if you want to fill password list manually, you can fill the field add directly.
+6. If you have been fill the password list, click Start Attack button to begin brute-froce.
+7. To find where the right password, you have to look response of every password. If we enter the wrong password, response will give us like this :
+but if the password is right, Response will give us unique display, different with wrong password. 

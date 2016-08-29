@@ -1,0 +1,15 @@
+This flaw has been found by Security Expert Dan Melamed. This flaw can redirect us to page that we enter through this url :
+http://facebook.com/campaign/landing.php?url=
+
+If we try to enter website address to "url" parameter, we will redirect to our facebook's homepage. For example, try to input http://yahoo.com :
+http://facebook.com/campaign/landing.php?url=http://yahoo.com
+
+But, if you try to input string randomly like this :
+http://facebook.com/campaign/l.php?url=asdf&h=mAQHgtP_E
+
+"asdf" is random string that we input on "url" parameter. After requesting on browser, facebook generate a "h" variable through Linkshim Facebook (l.php). 
+So, to bypass url redirection, you can delete string "http://". If previously we use http://yahoo.com, now we can input only yahoo.com whithout "httt".
+
+http://facebook.com/campaign/landing.php?url=yahoo.com
+
+Finally, facebook will redirect us to page which we enter after "url" parameter.
